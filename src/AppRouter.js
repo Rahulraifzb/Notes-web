@@ -10,7 +10,7 @@ const AppRouter = () => {
     return (
         <Suspense fallback={<h3>Loading....</h3>}>
             <Router>
-                <div className="container dark ">
+                <div className="container">
                     <div className="app">
                 <Header />
                 <Switch>
